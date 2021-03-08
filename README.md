@@ -1,17 +1,29 @@
-# Module 4 Final Project
+# MovieFy Recommendation System
 
 
 ## Introduction
 
-In this lesson, we'll review all of the guidelines and specifications for the final project for Module 4.
+We'll be working to create a movie recommendation system on behalf of Moviefy, a new streaming video competitor. A solution to boredom and ovrwhelming choice, this new platform will be entirely based on our recommender system, eliminating the abaility to search for titles at all.
 
-## Objectives
+We will rely on data from [MovieLens](https://grouplens.org/datasets/movielens/latest/). We will use RMSE to determine our best fit model. Models will be created using python's surprise library and ALS spark.
 
-* Understand all required aspects of the Final Project for Module 4
-* Understand all required deliverables
-* Understand what constitutes a successful project
+## Data
 
-## Final Project Summary
+* Ratings data columns: userId, movieId, rating, timestamp
+* Movies data columns: movieId, title, genres
+
+Using this data, we developed a recommendation system based on the inputs of 610 existing users across 9724 unique movies. The average user had already rated  roughly 165 movies.
+
+Most movies were rated between 3 and 4 stars.
+
+[IMG]
+
+Most movies in this dataset are comedies, dramas, action movies or thrillers.
+
+[IMG]
+
+
+## Modelling
 
 Final module down -- you're absolutely crushing it! You've made it all the way through one of the toughest modules of this course. You must have an amazing brain in your head!
 

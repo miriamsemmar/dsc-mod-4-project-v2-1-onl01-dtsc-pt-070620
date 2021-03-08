@@ -1,0 +1,4 @@
+Model,RMSE
+SVDpp_Gridsearch,0.8522847258784594
+SVD_Gridsearch,0.8603299942611414
+Baseline_Gridsearch,0.8701028942999427
