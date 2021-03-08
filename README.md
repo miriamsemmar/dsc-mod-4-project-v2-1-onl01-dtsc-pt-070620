@@ -29,18 +29,20 @@ Most movies in this dataset are comedies, dramas, action movies or thrillers.
 
 We began the modelling process by leveraging [python's surprise library](https://surprise.readthedocs.io/en/stable/prediction_algorithms_package.html). Every prediction algorithm available was tested and the RMSE scores were recorded. A summary of the results below:
 
-<img src=''>
+<img src='https://github.com/miriamsemmar/dsc-mod-4-project-v2-1-onl01-dtsc-pt-070620/blob/master/Vanilla%20Models.png'>
 
 We then took the top 3 models (based on lowest RMSE) and used GridsearchCV to find the best parameters for each model. All models were improved by Gridsearch, however, the results all translate to predictions within +/-1 star. SVDpp remains the strongest performing model, now refined with Gridsearch. RMSE scores below for reference.
 
-<img src=''>
+<img src='https://github.com/miriamsemmar/dsc-mod-4-project-v2-1-onl01-dtsc-pt-070620/blob/master/gridsearch_models'>
 
 Given the long processing time of the SVDpp model, we opted to develop an ALS spark model. This RMSE was 0.852285, in line with the RMSEs of our Gridsearch models. Because of it's efficent runtime, we moved forward using the ALS model to build our recommendation system.
 
 
 ## Recommendation System
 
+Our recommendation system works by first determining if someone is a new or existing user by prompting the user for an ID. If this is an existing user, the system generates 5 recommendations based on their viewing and rating history.
 
+If this is a new user, the system asks the user to rate 5 movies. Based on these reposnses, the new user received 5 movies recommendations. 
 
 
 ## Conclusions and Next Steps
