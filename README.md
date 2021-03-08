@@ -33,7 +33,7 @@ We began the modelling process by leveraging [python's surprise library](https:/
 
 We then took the top 3 models (based on lowest RMSE) and used GridsearchCV to find the best parameters for each model. All models were improved by Gridsearch, however, the results all translate to predictions within +/-1 star. SVDpp remains the strongest performing model, now refined with Gridsearch. RMSE scores below for reference.
 
-<img src='https://github.com/miriamsemmar/dsc-mod-4-project-v2-1-onl01-dtsc-pt-070620/blob/master/gridsearch_models'>
+<img src='https://github.com/miriamsemmar/dsc-mod-4-project-v2-1-onl01-dtsc-pt-070620/blob/master/Gridsearch_models.png'>
 
 Given the long processing time of the SVDpp model, we opted to develop an ALS spark model. This RMSE was 0.852285, in line with the RMSEs of our Gridsearch models. Because of it's efficent runtime, we moved forward using the ALS model to build our recommendation system.
 
