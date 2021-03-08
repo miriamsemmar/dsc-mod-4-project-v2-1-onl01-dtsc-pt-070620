@@ -16,9 +16,13 @@ Using this data, we developed a recommendation system based on the inputs of 610
 
 Most movies were rated between 3 and 4 stars.
 
+<img src='https://github.com/miriamsemmar/dsc-mod-4-project-v2-1-onl01-dtsc-pt-070620/blob/master/ratings_distribution.png'>
+
 [IMG]
 
 Most movies in this dataset are comedies, dramas, action movies or thrillers.
+
+<img src='https://github.com/miriamsemmar/dsc-mod-4-project-v2-1-onl01-dtsc-pt-070620/blob/master/moviespergenre.png'>
 
 [IMG]
 
