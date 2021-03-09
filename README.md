@@ -42,7 +42,7 @@ Given the long processing time of the SVDpp model, we opted to develop an ALS sp
 
 Our recommendation system works by first determining if someone is a new or existing user by prompting the user for an ID. If this is an existing user, the system generates 5 recommendations based on their viewing and rating history.
 
-If this is a new user, the system asks the user to rate 5 movies. Based on these reposnses, the new user received 5 movies recommendations. 
+If this is a new user, the system asks the user to rate 5 movies. Based on these responses, the new user received 5 movies recommendations. 
 
 
 ## Conclusions and Next Steps
